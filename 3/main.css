@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: lightblue;
+}
+.el{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: relative;
+    animation: animation 7s ease-in-out 0.25s infinite normal;
+}
+@keyframes animation {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 400px;
+        left: 0px;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        top: 0px;
+        left: 400px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}

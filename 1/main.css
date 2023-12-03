@@ -1,0 +1,40 @@
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.im{
+    text-align: center;
+}
+img{
+    position: relative;
+    width: 150px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.one{
+    top: 100px;
+    left: 100px;
+    transform: rotate(-13deg);
+}
+.one:hover{
+    top: 60px;
+}
+.two{
+    top: 115px;
+    left: -10px;
+    transform: rotate(-3deg);
+}
+.two:hover{
+    top: 75px;
+}
+.three{
+    top: 130px;
+    left: -110px;
+    transform: rotate(7deg);
+}
+.three:hover{
+    top: 90px;
+}
